@@ -1,0 +1,73 @@
+/*--------content-wrapper styles----------*/
+.content-wrapper{
+    background-color: #3f4449;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+/*--------left-side-content styles----------*/
+.content-wrapper > .left-side-content{
+    display: block;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.content-wrapper > .left-side-content > .paragraphs > .first-paragraph p{
+    font-size: 2em;
+    color:white;
+
+}
+.content-wrapper > .left-side-content > .paragraphs > .segond-paragraph p{
+    color:#a6a4a4;
+    font-size: 1.5em;
+
+}
+.content-wrapper >.left-side-content > .buttons{
+    display:flex;
+    
+}
+.content-wrapper > .left-side-content > .buttons > .sign-up-btn >.sign-up-for-free{
+    padding: 20px 30px;
+    border: none;
+    background-color: rgb(8, 184, 96);
+    -webkit-text-stroke-width:thin;
+    color: black;
+    font-size: 1.25em;
+    text-align:start;
+}
+.content-wrapper > .left-side-content > .buttons > .learn-more-btn >.learn-more{
+    margin-left: 20px;
+    padding: 20px 30px;
+    border:none;
+    background-color: rgb(14, 15, 14);
+    -webkit-text-stroke-width:thin;
+    color: rgb(249, 243, 243);
+    font-size: 1.25em;
+    text-align:start;
+}
+
+/*--------right-side-content styles----------*/
+.content-wrapper > .right-side-content{
+    display: grid;
+    justify-content: space-between;
+    
+}
+
+.content-wrapper > .right-side-content > .title p{
+    color: white;
+    -webkit-text-stroke-width:thin;
+}
+.content-wrapper > .right-side-content > .title i{
+    color: rgb(0, 225, 255);
+    font-style: normal;
+}
+
+.content-wrapper > .right-side-content > .image img{
+    width: 600px;
+    height: 100%;
+    border-top-left-radius: 5px;
+    box-shadow: -2px 4px 8px 4px rgba(0,0,0,0.75);
+}
